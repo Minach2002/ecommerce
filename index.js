@@ -5,7 +5,7 @@ const dotenv = require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 const authRouter=require('./routes/authRoute')
 dbConnect();
-
+//jdnjncndncndjc
 app.use('/',(req,res)=>{
     res.send("Hello from server side");
 });
